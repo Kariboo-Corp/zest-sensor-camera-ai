@@ -28,36 +28,34 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/nsdynmemLIB.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/common_functions.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/Trickle/trickle.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_cfg.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_certs.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/tls_sec_prot/tls_sec_prot_lib.h \
- mbed-os/features/mbedtls/inc/mbedtls/sha256.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/sha256.h \
  mbed-os/features/mbedtls/inc/mbedtls/error.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_time.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_time.h \
  mbed-os/features/mbedtls/inc/mbedtls/ssl_cookie.h \
  mbed-os/features/mbedtls/inc/mbedtls/ssl.h \
- mbed-os/features/mbedtls/inc/mbedtls/bignum.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecp.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/bignum.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecp.h \
  mbed-os/features/mbedtls/inc/mbedtls/ssl_ciphersuites.h \
- mbed-os/features/mbedtls/inc/mbedtls/pk.h \
- mbed-os/features/mbedtls/inc/mbedtls/md.h \
- mbed-os/features/mbedtls/inc/mbedtls/rsa.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecdsa.h \
- mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/pk.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/md.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/rsa.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecdsa.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/cipher.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_util.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crt.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509.h \
- mbed-os/features/mbedtls/inc/mbedtls/asn1.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/asn1.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crl.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecdh.h \
- mbed-os/features/mbedtls/inc/mbedtls/entropy.h \
- mbed-os/features/mbedtls/inc/mbedtls/sha512.h \
- mbed-os/features/mbedtls/inc/mbedtls/entropy_poll.h \
- mbed-os/features/mbedtls/inc/mbedtls/ctr_drbg.h \
- mbed-os/features/mbedtls/inc/mbedtls/aes.h \
- mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/aes_alt.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecdh.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/entropy.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/sha512.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/entropy_poll.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ctr_drbg.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/aes.h \
+ mbed-os/features/mbedtls/targets/TARGET_STM/aes_alt.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/stm32l4a6xx.h \
@@ -147,4 +145,5 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_wwdg.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/cmsis_nvic.h \
  mbed-os/features/mbedtls/inc/mbedtls/debug.h \
- mbed-os/features/mbedtls/inc/mbedtls/oid.h
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/oid.h \
+ mbed-os/features/mbedtls/inc/mbedtls/ssl_internal.h

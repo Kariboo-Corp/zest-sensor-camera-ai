@@ -20,11 +20,8 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
- mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/nsdynmemLIB.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/socket_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_address.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_event.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_list.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol.h \
@@ -57,15 +54,12 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_neighbor_class.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_ws_extension.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bootstrap.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_cfg_settings.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_key_storage.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_control.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_data.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6_prefix.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6_radv.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ws_management_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_rpl.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/nd_proxy/nd_proxy.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bbr_api_internal.h \
@@ -73,7 +67,4 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/DHCPv6_Server/DHCPv6_server_service.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/libDHCPv6/libDHCPv6.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/libDHCPv6/libDHCPv6_server.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/DHCPv6_client/dhcpv6_client_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/libDHCPv6/libDHCPv6_vendordata.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/libNET/src/net_dns_internal.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ws_bbr_api.h

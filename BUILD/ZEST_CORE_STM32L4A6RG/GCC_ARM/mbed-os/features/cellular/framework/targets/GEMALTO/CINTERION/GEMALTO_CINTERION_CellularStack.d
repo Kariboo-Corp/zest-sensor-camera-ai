@@ -16,8 +16,28 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/platform/mbed_preprocessor.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/features/netsocket/nsapi_types.h \
- mbed-os/platform/Callback.h mbed-os/drivers/UARTSerial.h \
- mbed-os/platform/platform.h mbed-os/targets/TARGET_STM/device.h \
+ mbed-os/platform/Callback.h mbed-os/rtos/ConditionVariable.h \
+ mbed-os/rtos/mbed_rtos_types.h mbed-os/rtos/Mutex.h \
+ mbed-os/rtos/mbed_rtos1_types.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx4/cmsis_os.h \
+ mbed-os/rtos/mbed_rtos_storage.h mbed-os/platform/ScopedLock.h \
+ mbed-os/rtos/Semaphore.h mbed-os/features/netsocket/NetworkStack.h \
+ mbed-os/features/netsocket/nsapi_types.h \
+ mbed-os/features/netsocket/SocketAddress.h \
+ mbed-os/platform/mbed_toolchain.h \
+ mbed-os/features/netsocket/NetworkInterface.h \
+ mbed-os/features/netsocket/nsapi_types.h \
+ mbed-os/features/netsocket/DNS.h mbed-os/platform/PlatformMutex.h \
+ mbed-os/features/cellular/framework/targets/GEMALTO/CINTERION/GEMALTO_CINTERION.h \
+ mbed-os/features/cellular/framework/AT/AT_CellularDevice.h \
+ mbed-os/features/cellular/framework/API/CellularDevice.h \
+ mbed-os/features/cellular/framework/device/CellularStateMachine.h \
+ mbed-os/features/cellular/framework/API/CellularNetwork.h \
+ mbed-os/features/cellular/framework/common/CellularList.h \
+ mbed-os/features/cellular/framework/common/CellularCommon.h \
+ mbed-os/features/cellular/framework/AT/ATHandler.h \
+ mbed-os/drivers/UARTSerial.h mbed-os/platform/platform.h \
+ mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/objects.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx.h \
@@ -117,7 +137,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
@@ -129,25 +148,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/platform/CThunk.h mbed-os/platform/internal/CThunkBase.h \
  mbed-os/drivers/InterruptIn.h mbed-os/hal/gpio_api.h \
  mbed-os/hal/gpio_irq_api.h mbed-os/platform/mbed_critical.h \
- mbed-os/platform/PlatformMutex.h mbed-os/rtos/Mutex.h \
- mbed-os/rtos/mbed_rtos_types.h mbed-os/rtos/mbed_rtos1_types.h \
- mbed-os/rtos/source/TARGET_CORTEX/rtx4/cmsis_os.h \
- mbed-os/rtos/mbed_rtos_storage.h mbed-os/platform/ScopedLock.h \
- mbed-os/platform/CircularBuffer.h mbed-os/rtos/ConditionVariable.h \
- mbed-os/rtos/Semaphore.h mbed-os/features/netsocket/NetworkStack.h \
- mbed-os/features/netsocket/nsapi_types.h \
- mbed-os/features/netsocket/SocketAddress.h \
- mbed-os/platform/mbed_toolchain.h \
- mbed-os/features/netsocket/NetworkInterface.h \
- mbed-os/features/netsocket/nsapi_types.h \
- mbed-os/features/netsocket/DNS.h mbed-os/platform/PlatformMutex.h \
- mbed-os/features/cellular/framework/targets/GEMALTO/CINTERION/GEMALTO_CINTERION.h \
- mbed-os/features/cellular/framework/AT/AT_CellularDevice.h \
- mbed-os/features/cellular/framework/API/CellularDevice.h \
- mbed-os/features/cellular/framework/device/CellularStateMachine.h \
- mbed-os/features/cellular/framework/API/CellularNetwork.h \
- mbed-os/features/cellular/framework/common/CellularList.h \
- mbed-os/features/cellular/framework/common/CellularCommon.h \
- mbed-os/features/cellular/framework/AT/ATHandler.h \
+ mbed-os/platform/PlatformMutex.h mbed-os/platform/CircularBuffer.h \
  mbed-os/features/cellular/framework/common/CellularLog.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h

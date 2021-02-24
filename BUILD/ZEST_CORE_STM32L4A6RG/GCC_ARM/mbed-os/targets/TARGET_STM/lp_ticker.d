@@ -1,7 +1,8 @@
 BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/targets/TARGET_STM/lp_ticker.o: \
  mbed-os/targets/TARGET_STM/lp_ticker.c \
  BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed_config.h \
- mbed-os/hal/lp_ticker_api.h mbed-os/targets/TARGET_STM/device.h \
+ mbed-os/targets/TARGET_STM/rtc_api_hal.h mbed-os/hal/rtc_api.h \
+ mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/objects.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx.h \
@@ -101,13 +102,10 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/targets/TARGET_STM/lp_ticker.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_preprocessor.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/us_ticker_data.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/cmsis_nvic.h \
- mbed-os/hal/ticker_api.h mbed-os/platform/mbed_error.h \
- mbed-os/platform/mbed_retarget.h mbed-os/platform/mbed_power_mgmt.h \
- mbed-os/platform/mbed_critical.h
+ mbed-os/hal/lp_ticker_api.h mbed-os/hal/ticker_api.h

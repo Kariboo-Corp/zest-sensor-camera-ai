@@ -15,21 +15,21 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/coap-service/sour
  mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/TARGET_ZEST_CORE_STM32L4A6RG/mbedtls_device.h \
  mbed-os/features/mbedtls/inc/mbedtls/check_config.h \
  mbed-os/features/mbedtls/inc/mbedtls/ssl.h \
- mbed-os/features/mbedtls/inc/mbedtls/bignum.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecp.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/bignum.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecp.h \
  mbed-os/features/mbedtls/inc/mbedtls/ssl_ciphersuites.h \
- mbed-os/features/mbedtls/inc/mbedtls/pk.h \
- mbed-os/features/mbedtls/inc/mbedtls/md.h \
- mbed-os/features/mbedtls/inc/mbedtls/rsa.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecdsa.h \
- mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/pk.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/md.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/rsa.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecdsa.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/cipher.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_util.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crt.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509.h \
- mbed-os/features/mbedtls/inc/mbedtls/asn1.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/asn1.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crl.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecdh.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_time.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecdh.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_time.h \
  mbed-os/features/nanostack/coap-service/source/include/coap_security_handler.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \

@@ -28,7 +28,7 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_tmfcop_lib.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/thread_meshcop_lib.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_sha256.h \
- mbed-os/features/mbedtls/inc/mbedtls/sha256.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/sha256.h \
  mbed-os/features/mbedtls/inc/mbedtls/config.h \
  mbed-os/features/mbedtls/platform/inc/platform_mbed.h \
  mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/TARGET_ZEST_CORE_STM32L4A6RG/mbedtls_device.h \

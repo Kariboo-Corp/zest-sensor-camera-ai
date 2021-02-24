@@ -28,8 +28,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/mbed-mesh-api/sou
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_mcps.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/sw_mac.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/nwk_stats_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ws_management_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_config.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h

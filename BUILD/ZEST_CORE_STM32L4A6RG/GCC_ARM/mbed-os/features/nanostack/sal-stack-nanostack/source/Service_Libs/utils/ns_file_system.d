@@ -4,5 +4,4 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/nsdynmemLIB.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_file_system.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/utils/ns_file.h
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_file_system.h

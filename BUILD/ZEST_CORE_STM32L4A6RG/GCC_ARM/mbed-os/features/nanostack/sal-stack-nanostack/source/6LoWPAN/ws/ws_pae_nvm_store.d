@@ -25,7 +25,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/common_functions.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_file_system.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/utils/ns_file.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_certs.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_keys.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_nvm_store.h

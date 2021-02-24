@@ -102,7 +102,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/netsocket/ppp/ppp_service_i
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
@@ -153,38 +152,35 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/netsocket/ppp/ppp_service_i
  mbed-os/features/netsocket/SocketStats.h mbed-os/platform/SingletonPtr.h \
  mbed-os/platform/mbed_atomic.h mbed-os/platform/PlatformMutex.h \
  mbed-os/features/netsocket/SocketAddress.h mbed-os/hal/ticker_api.h \
- mbed-os/features/netsocket/InternetDatagramSocket.h \
- mbed-os/features/netsocket/ICMPSocket.h \
  mbed-os/features/netsocket/TCPSocket.h \
  mbed-os/features/netsocket/TCPServer.h \
  mbed-os/features/netsocket/TLSSocketWrapper.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform.h \
  mbed-os/features/mbedtls/inc/mbedtls/config.h \
  mbed-os/features/mbedtls/platform/inc/platform_mbed.h \
  mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/TARGET_ZEST_CORE_STM32L4A6RG/mbedtls_device.h \
  mbed-os/features/mbedtls/inc/mbedtls/check_config.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_time.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_time.h \
  mbed-os/features/mbedtls/inc/mbedtls/ssl.h \
- mbed-os/features/mbedtls/inc/mbedtls/bignum.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecp.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/bignum.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecp.h \
  mbed-os/features/mbedtls/inc/mbedtls/ssl_ciphersuites.h \
- mbed-os/features/mbedtls/inc/mbedtls/pk.h \
- mbed-os/features/mbedtls/inc/mbedtls/md.h \
- mbed-os/features/mbedtls/inc/mbedtls/rsa.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecdsa.h \
- mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/pk.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/md.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/rsa.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecdsa.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/cipher.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_util.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crt.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509.h \
- mbed-os/features/mbedtls/inc/mbedtls/asn1.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/asn1.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crl.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecdh.h \
- mbed-os/features/mbedtls/inc/mbedtls/entropy.h \
- mbed-os/features/mbedtls/inc/mbedtls/sha512.h \
- mbed-os/features/mbedtls/inc/mbedtls/ctr_drbg.h \
- mbed-os/features/mbedtls/inc/mbedtls/aes.h \
- mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/aes_alt.h \
- mbed-os/features/mbedtls/inc/mbedtls/hmac_drbg.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecdh.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/entropy.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/sha512.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ctr_drbg.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/aes.h \
+ mbed-os/features/mbedtls/targets/TARGET_STM/aes_alt.h \
  mbed-os/features/mbedtls/inc/mbedtls/error.h \
  mbed-os/features/netsocket/DTLSSocketWrapper.h \
  mbed-os/features/netsocket/TLSSocketWrapper.h \

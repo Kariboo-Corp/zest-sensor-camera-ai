@@ -143,44 +143,40 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/main.o: main.cpp \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/us_ticker_data.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/cmsis_nvic.h \
- mbed-os/features/netsocket/InternetDatagramSocket.h \
- mbed-os/features/netsocket/ICMPSocket.h \
  mbed-os/features/netsocket/TCPSocket.h \
  mbed-os/features/netsocket/TCPServer.h \
  mbed-os/features/netsocket/TLSSocketWrapper.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform.h \
  mbed-os/features/mbedtls/inc/mbedtls/config.h \
  mbed-os/features/mbedtls/platform/inc/platform_mbed.h \
  mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/TARGET_ZEST_CORE_STM32L4A6RG/mbedtls_device.h \
  mbed-os/features/mbedtls/inc/mbedtls/check_config.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_time.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_time.h \
  mbed-os/features/mbedtls/inc/mbedtls/ssl.h \
- mbed-os/features/mbedtls/inc/mbedtls/bignum.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecp.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/bignum.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecp.h \
  mbed-os/features/mbedtls/inc/mbedtls/ssl_ciphersuites.h \
- mbed-os/features/mbedtls/inc/mbedtls/pk.h \
- mbed-os/features/mbedtls/inc/mbedtls/md.h \
- mbed-os/features/mbedtls/inc/mbedtls/rsa.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecdsa.h \
- mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/pk.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/md.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/rsa.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecdsa.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/cipher.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_util.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crt.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509.h \
- mbed-os/features/mbedtls/inc/mbedtls/asn1.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/asn1.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crl.h \
- mbed-os/features/mbedtls/inc/mbedtls/ecdh.h \
- mbed-os/features/mbedtls/inc/mbedtls/entropy.h \
- mbed-os/features/mbedtls/inc/mbedtls/sha512.h \
- mbed-os/features/mbedtls/inc/mbedtls/ctr_drbg.h \
- mbed-os/features/mbedtls/inc/mbedtls/aes.h \
- mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/aes_alt.h \
- mbed-os/features/mbedtls/inc/mbedtls/hmac_drbg.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ecdh.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/entropy.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/sha512.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/ctr_drbg.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/aes.h \
+ mbed-os/features/mbedtls/targets/TARGET_STM/aes_alt.h \
  mbed-os/features/mbedtls/inc/mbedtls/error.h \
  mbed-os/features/netsocket/DTLSSocketWrapper.h \
  mbed-os/features/netsocket/TLSSocketWrapper.h \
@@ -274,6 +270,33 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/main.o: main.cpp \
  mbed-os/features/storage/filesystem/fat/ChaN/ff.h \
  mbed-os/features/storage/filesystem/fat/ChaN/integer.h \
  mbed-os/features/storage/filesystem/fat/ChaN/ffconf.h \
+ tensorflow_lite/tensorflow/lite/micro/kernels/micro_ops.h \
+ tensorflow_lite/tensorflow/lite/c/common.h \
+ tensorflow_lite/tensorflow/lite/c/c_api_types.h \
+ tensorflow_lite/tensorflow/lite/micro/micro_error_reporter.h \
+ tensorflow_lite/tensorflow/lite/core/api/error_reporter.h \
+ tensorflow_lite/tensorflow/lite/micro/compatibility.h \
+ tensorflow_lite/tensorflow/lite/micro/micro_interpreter.h \
+ tensorflow_lite/third_party/flatbuffers/include/flatbuffers/flatbuffers.h \
+ tensorflow_lite/third_party/flatbuffers/include/flatbuffers/base.h \
+ tensorflow_lite/third_party/flatbuffers/include/flatbuffers/stl_emulation.h \
+ tensorflow_lite/tensorflow/lite/core/api/profiler.h \
+ tensorflow_lite/tensorflow/lite/kernels/internal/tensor_ctypes.h \
+ tensorflow_lite/tensorflow/lite/kernels/internal/types.h \
+ tensorflow_lite/tensorflow/lite/kernels/internal/compatibility.h \
+ tensorflow_lite/tensorflow/lite/kernels/op_macros.h \
+ tensorflow_lite/tensorflow/lite/micro/micro_allocator.h \
+ tensorflow_lite/tensorflow/lite/micro/micro_op_resolver.h \
+ tensorflow_lite/tensorflow/lite/core/api/flatbuffer_conversions.h \
+ tensorflow_lite/tensorflow/lite/schema/schema_generated.h \
+ tensorflow_lite/tensorflow/lite/core/api/op_resolver.h \
+ tensorflow_lite/tensorflow/lite/micro/simple_memory_allocator.h \
+ tensorflow_lite/tensorflow/lite/portable_type_to_tflitetype.h \
+ tensorflow_lite/tensorflow/lite/micro/micro_mutable_op_resolver.h \
+ tensorflow_lite/tensorflow/lite/micro/kernels/ethosu.h \
+ tensorflow_lite/tensorflow/lite/micro/kernels/fully_connected.h \
+ tensorflow_lite/tensorflow/lite/c/builtin_op_data.h \
+ models/train_yes_conv_8_drop_yes_dense_64.h \
  zest-sensor-camera/zest-sensor-camera/zest-sensor-camera.h \
  zest-sensor-camera/lm3405/lm3405/lm3405.h \
  zest-sensor-camera/ov5640/ov5640/ov5640.h

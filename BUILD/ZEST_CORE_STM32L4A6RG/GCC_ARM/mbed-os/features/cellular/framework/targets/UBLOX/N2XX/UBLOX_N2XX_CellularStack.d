@@ -16,9 +16,20 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/platform/mbed_preprocessor.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/features/netsocket/nsapi_types.h \
- mbed-os/platform/Callback.h mbed-os/drivers/UARTSerial.h \
- mbed-os/platform/platform.h mbed-os/targets/TARGET_STM/device.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/objects.h \
+ mbed-os/platform/Callback.h mbed-os/rtos/ConditionVariable.h \
+ mbed-os/rtos/mbed_rtos_types.h mbed-os/rtos/Mutex.h \
+ mbed-os/rtos/mbed_rtos1_types.h \
+ mbed-os/rtos/source/TARGET_CORTEX/rtx4/cmsis_os.h \
+ mbed-os/rtos/mbed_rtos_storage.h mbed-os/platform/ScopedLock.h \
+ mbed-os/rtos/Semaphore.h mbed-os/features/netsocket/NetworkStack.h \
+ mbed-os/features/netsocket/nsapi_types.h \
+ mbed-os/features/netsocket/SocketAddress.h \
+ mbed-os/platform/mbed_toolchain.h \
+ mbed-os/features/netsocket/NetworkInterface.h \
+ mbed-os/features/netsocket/nsapi_types.h \
+ mbed-os/features/netsocket/DNS.h mbed-os/platform/PlatformMutex.h \
+ mbed-os/features/cellular/framework/common/CellularUtil.h \
+ mbed-os/platform/mbed_wait_api.h mbed-os/platform/mbed_atomic.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/stm32l4a6xx.h \
@@ -107,6 +118,11 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_usart_ex.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_wwdg.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/cmsis_nvic.h \
+ mbed-os/platform/cxxsupport/mstd_type_traits \
+ mbed-os/platform/cxxsupport/mstd_cstddef \
+ mbed-os/platform/internal/mbed_atomic_impl.h \
+ mbed-os/targets/TARGET_STM/device.h \
+ mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/objects.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/TARGET_ZEST_CORE_STM32L4A6RG/PeripheralNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/TARGET_ZEST_CORE_STM32L4A6RG/PinNames.h \
@@ -117,33 +133,10 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/us_ticker_data.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/cmsis_nvic.h \
- mbed-os/platform/FileHandle.h mbed-os/platform/mbed_poll.h \
- mbed-os/drivers/SerialBase.h mbed-os/hal/serial_api.h \
- mbed-os/hal/pinmap.h mbed-os/hal/buffer.h mbed-os/hal/dma_api.h \
- mbed-os/platform/CThunk.h mbed-os/platform/internal/CThunkBase.h \
- mbed-os/drivers/InterruptIn.h mbed-os/hal/gpio_api.h \
- mbed-os/hal/gpio_irq_api.h mbed-os/platform/mbed_critical.h \
- mbed-os/platform/PlatformMutex.h mbed-os/rtos/Mutex.h \
- mbed-os/rtos/mbed_rtos_types.h mbed-os/rtos/mbed_rtos1_types.h \
- mbed-os/rtos/source/TARGET_CORTEX/rtx4/cmsis_os.h \
- mbed-os/rtos/mbed_rtos_storage.h mbed-os/platform/ScopedLock.h \
- mbed-os/platform/CircularBuffer.h mbed-os/rtos/ConditionVariable.h \
- mbed-os/rtos/Semaphore.h mbed-os/features/netsocket/NetworkStack.h \
- mbed-os/features/netsocket/nsapi_types.h \
- mbed-os/features/netsocket/SocketAddress.h \
- mbed-os/platform/mbed_toolchain.h \
- mbed-os/features/netsocket/NetworkInterface.h \
- mbed-os/features/netsocket/nsapi_types.h \
- mbed-os/features/netsocket/DNS.h mbed-os/platform/PlatformMutex.h \
- mbed-os/features/cellular/framework/common/CellularUtil.h \
- mbed-os/platform/mbed_wait_api.h mbed-os/platform/mbed_atomic.h \
- mbed-os/platform/cxxsupport/mstd_type_traits \
- mbed-os/platform/cxxsupport/mstd_cstddef \
- mbed-os/platform/internal/mbed_atomic_impl.h mbed-os/drivers/Timer.h \
+ mbed-os/drivers/Timer.h mbed-os/platform/platform.h \
  mbed-os/hal/ticker_api.h

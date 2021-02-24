@@ -101,7 +101,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/platform/source/mbed_error.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_preprocessor.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
@@ -116,7 +115,5 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/platform/source/mbed_error.o: \
  mbed-os/platform/source/mbed_error_hist.h \
  mbed-os/platform/mbed_interface.h mbed-os/platform/mbed_power_mgmt.h \
  mbed-os/hal/ticker_api.h mbed-os/platform/mbed_stats.h \
- mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.h \
- mbed-os/targets/TARGET_STM/mbed_rtx.h \
  mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Include/rtx_os.h \
  mbed-os/rtos/source/TARGET_CORTEX/rtx5/Include/cmsis_os2.h

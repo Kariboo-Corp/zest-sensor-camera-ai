@@ -26,17 +26,11 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_ws_extension.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ws_management_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_event.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_scheduler.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_event_timer.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_event.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_address.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/utils/ns_file.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_file_system.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol_abstract.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_address_internal.h \
@@ -45,6 +39,8 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/IPHC_Decode/lowpan_context.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_nwk_scan.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mlme.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_common_defines.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
@@ -59,7 +55,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_control.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_data.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_config.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_cfg.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_addr.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_certs.h \
@@ -69,12 +64,10 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/tls_sec_prot/tls_sec_prot.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/fwh_sec_prot/supp_fwh_sec_prot.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/gkh_sec_prot/supp_gkh_sec_prot.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_cfg_settings.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_controller.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_timers.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_supp.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_lib.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_time.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_nvm_store.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_nvm_data.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/mpx_api.h \

@@ -104,7 +104,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/components/wifi/esp8266-driver/ESP82
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
@@ -132,7 +131,8 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/components/wifi/esp8266-driver/ESP82
  mbed-os/features/netsocket/nsapi_types.h \
  mbed-os/features/netsocket/WiFiAccessPoint.h \
  mbed-os/features/netsocket/nsapi_types.h mbed-os/platform/ATCmdParser.h \
- mbed-os/platform/mbed_error.h mbed-os/rtos/ThisThread.h \
+ mbed-os/platform/mbed_error.h mbed-os/rtos/ConditionVariable.h \
+ mbed-os/rtos/Semaphore.h \
  mbed-os/components/wifi/esp8266-driver/ESP8266Interface.h \
  mbed-os/drivers/DigitalOut.h mbed-os/drivers/Timer.h \
  mbed-os/hal/ticker_api.h \
@@ -150,9 +150,8 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/components/wifi/esp8266-driver/ESP82
  mbed-os/features/netsocket/SocketAddress.h \
  mbed-os/features/netsocket/WiFiInterface.h \
  mbed-os/features/netsocket/WiFiAccessPoint.h \
- mbed-os/rtos/ConditionVariable.h mbed-os/rtos/Semaphore.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
  mbed-os/platform/mbed_atomic.h \
  mbed-os/platform/cxxsupport/mstd_type_traits \
  mbed-os/platform/cxxsupport/mstd_cstddef \
- mbed-os/platform/internal/mbed_atomic_impl.h
+ mbed-os/platform/internal/mbed_atomic_impl.h mbed-os/rtos/ThisThread.h

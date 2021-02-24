@@ -20,10 +20,10 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/storage/kvstore/securestore
  mbed-os/rtos/source/TARGET_CORTEX/mbed_rtx_storage.h \
  mbed-os/rtos/source/TARGET_CORTEX/mbed_rtx_conf.h \
  mbed-os/targets/TARGET_STM/mbed_rtx.h mbed-os/platform/ScopedLock.h \
- mbed-os/features/mbedtls/inc/mbedtls/aes.h \
- mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/aes_alt.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_time.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/aes.h \
+ mbed-os/features/mbedtls/targets/TARGET_STM/aes_alt.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_time.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/stm32l4a6xx.h \
@@ -112,11 +112,11 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/storage/kvstore/securestore
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_usart_ex.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_wwdg.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/cmsis_nvic.h \
- mbed-os/features/mbedtls/inc/mbedtls/cmac.h \
- mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
- mbed-os/features/mbedtls/inc/mbedtls/entropy.h \
- mbed-os/features/mbedtls/inc/mbedtls/sha512.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/cmac.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/cipher.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_util.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/entropy.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/sha512.h \
  mbed-os/features/device_key/source/DeviceKey.h \
  mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_wait_api.h \
  mbed-os/platform/mbed_atomic.h \
@@ -135,7 +135,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/storage/kvstore/securestore
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \

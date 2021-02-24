@@ -34,5 +34,4 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mlme.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_mcps.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_monitor.h
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_mcps.h

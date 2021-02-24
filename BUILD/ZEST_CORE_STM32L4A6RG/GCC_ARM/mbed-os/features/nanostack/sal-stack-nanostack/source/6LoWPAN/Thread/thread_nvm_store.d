@@ -17,11 +17,10 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_rf_tunnel.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_border_router.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_router.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/utils/ns_file.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_file_system.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_address_internal.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_list.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_file_system.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_constants.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_common.h \

@@ -57,7 +57,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_ws_extension.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_fhss.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_neighbor_class.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_ws_extension.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bootstrap.h \
@@ -65,7 +64,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_llc.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_mpx_header.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_controller.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_cfg_settings.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/PANA/pana_eap_header.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/eapol/eapol_helper.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/etx/etx.h

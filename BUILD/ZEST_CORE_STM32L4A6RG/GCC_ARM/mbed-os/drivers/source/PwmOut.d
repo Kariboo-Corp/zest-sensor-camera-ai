@@ -103,7 +103,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/drivers/source/PwmOut.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
@@ -111,4 +110,4 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/drivers/source/PwmOut.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/cmsis_nvic.h \
  mbed-os/hal/pwmout_api.h mbed-os/hal/pinmap.h \
  mbed-os/platform/mbed_critical.h mbed-os/platform/mbed_power_mgmt.h \
- mbed-os/hal/ticker_api.h mbed-os/platform/mbed_assert.h
+ mbed-os/hal/ticker_api.h

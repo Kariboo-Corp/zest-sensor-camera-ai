@@ -130,12 +130,10 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/netsocket/UDPSocket.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/us_ticker_data.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/cmsis_nvic.h \
- mbed-os/features/netsocket/InternetDatagramSocket.h \
- mbed-os/features/netsocket/ICMPSocket.h mbed-os/drivers/Timer.h \
- mbed-os/platform/platform.h mbed-os/platform/mbed_retarget.h
+ mbed-os/drivers/Timer.h mbed-os/platform/platform.h \
+ mbed-os/platform/mbed_retarget.h

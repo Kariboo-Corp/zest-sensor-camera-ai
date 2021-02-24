@@ -26,7 +26,8 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/rtos/source/TARGET_CORTEX/rtx4/cmsis_os.h \
  mbed-os/rtos/mbed_rtos_storage.h mbed-os/platform/ScopedLock.h \
  mbed-os/features/cellular/framework/AT/ATHandler.h \
- mbed-os/platform/mbed_retarget.h mbed-os/drivers/UARTSerial.h \
+ mbed-os/platform/mbed_retarget.h mbed-os/rtos/ConditionVariable.h \
+ mbed-os/rtos/Semaphore.h mbed-os/drivers/UARTSerial.h \
  mbed-os/platform/platform.h mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/objects.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/cmsis.h \
@@ -127,7 +128,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
@@ -140,7 +140,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/drivers/InterruptIn.h mbed-os/hal/gpio_api.h \
  mbed-os/hal/gpio_irq_api.h mbed-os/platform/mbed_critical.h \
  mbed-os/platform/PlatformMutex.h mbed-os/platform/CircularBuffer.h \
- mbed-os/rtos/ConditionVariable.h mbed-os/rtos/Semaphore.h \
  mbed-os/features/cellular/framework/AT/AT_CellularContext.h \
  mbed-os/features/cellular/framework/API/CellularContext.h \
  mbed-os/features/netsocket/CellularInterface.h \

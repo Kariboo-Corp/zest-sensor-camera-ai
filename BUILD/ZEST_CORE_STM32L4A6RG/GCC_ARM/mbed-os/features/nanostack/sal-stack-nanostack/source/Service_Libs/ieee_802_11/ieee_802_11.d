@@ -21,10 +21,10 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
- mbed-os/features/mbedtls/inc/mbedtls/md.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/md.h \
  mbed-os/features/mbedtls/inc/mbedtls/config.h \
  mbed-os/features/mbedtls/platform/inc/platform_mbed.h \
  mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/TARGET_ZEST_CORE_STM32L4A6RG/mbedtls_device.h \
  mbed-os/features/mbedtls/inc/mbedtls/check_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/ieee_802_11/ieee_802_11.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/hmac/hmac_md.h
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/hmac/hmac_sha1.h

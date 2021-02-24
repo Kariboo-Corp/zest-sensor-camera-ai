@@ -12,5 +12,4 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/nanostack-hal-mbe
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
  mbed-os/features/nanostack/nanostack-hal-mbed-cmsis-rtos/arm_hal_interrupt_private.h \
  mbed-os/features/nanostack/nanostack-hal-mbed-cmsis-rtos/ns_hal_init.h \
- mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/nsdynmemLIB.h \
- mbed-os/features/nanostack/nanostack-hal-mbed-cmsis-rtos/ns_file_system_api.h
+ mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/nsdynmemLIB.h

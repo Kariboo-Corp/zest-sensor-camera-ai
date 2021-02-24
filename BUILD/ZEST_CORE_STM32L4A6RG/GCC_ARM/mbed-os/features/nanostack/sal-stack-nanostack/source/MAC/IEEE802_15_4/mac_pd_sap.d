@@ -47,9 +47,5 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_filter.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_mcps_sap.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_common_defines.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_cca_threshold.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/MAC/rf_driver_storage.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_monitor.h \
- mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
- mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h

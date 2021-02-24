@@ -6,10 +6,10 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/lorawan/lorastack/mac/LoRaM
  mbed-os/features/mbedtls/platform/inc/platform_mbed.h \
  mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/TARGET_ZEST_CORE_STM32L4A6RG/mbedtls_device.h \
  mbed-os/features/mbedtls/inc/mbedtls/check_config.h \
- mbed-os/features/mbedtls/inc/mbedtls/aes.h \
- mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/aes_alt.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_time.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/aes.h \
+ mbed-os/features/mbedtls/targets/TARGET_STM/aes_alt.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_time.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/stm32l4a6xx.h \
@@ -98,9 +98,9 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/lorawan/lorastack/mac/LoRaM
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_usart_ex.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_wwdg.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/cmsis_nvic.h \
- mbed-os/features/mbedtls/inc/mbedtls/cmac.h \
- mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/cmac.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/cipher.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_util.h \
  mbed-os/features/lorawan/system/lorawan_data_structures.h \
  mbed-os/features/lorawan/lorawan_types.h mbed-os/platform/Callback.h \
  mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_toolchain.h \

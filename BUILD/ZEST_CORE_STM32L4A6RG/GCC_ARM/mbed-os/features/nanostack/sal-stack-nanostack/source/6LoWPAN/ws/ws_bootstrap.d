@@ -60,8 +60,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_rpl.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_control.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_data.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_policy.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_control.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6_prefix.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6_radv.h \
@@ -82,22 +80,17 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_llc.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_ie_lib.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_stats.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_cfg_settings.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/lowpan_adaptation_interface.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/etx/etx.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/nd_proxy/nd_proxy.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/blacklist/blacklist.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/topo_trace.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/dhcp_service_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/libDHCPv6/libDHCPv6.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/libDHCPv6/libDHCPv6_vendordata.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/DHCPv6_client/dhcpv6_client_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ws_management_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_mcps.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_controller.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_eapol_pdu.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_eapol_auth_relay.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_eapol_relay.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/libNET/src/net_dns_internal.h
+ mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_eapol_relay.h

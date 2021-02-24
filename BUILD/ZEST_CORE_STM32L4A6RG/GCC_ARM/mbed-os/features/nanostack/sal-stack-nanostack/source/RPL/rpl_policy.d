@@ -20,7 +20,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
- mbed-os/features/frameworks/mbed-client-randlib/mbed-client-randlib/randLIB.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_address_internal.h \

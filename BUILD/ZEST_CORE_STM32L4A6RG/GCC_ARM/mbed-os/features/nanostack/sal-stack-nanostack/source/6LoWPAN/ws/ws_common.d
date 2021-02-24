@@ -23,23 +23,13 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/frameworks/mbed-client-randlib/mbed-client-randlib/randLIB.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_list.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/nsdynmemLIB.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6_prefix.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_common_defines.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/mpx_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_common_defines.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_llc.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_neighbor_class.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_ws_extension.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/mac_neighbor_table/mac_neighbor_table.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_common.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_ws_extension.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_fhss.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol_abstract.h \
@@ -50,23 +40,26 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_nwk_scan.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mlme.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_common_defines.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/multicast_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/Neighbor_cache/neighbor_table_definition.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/Trickle/trickle.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/pan_blacklist/pan_blacklist_api.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/mac_neighbor_table/mac_neighbor_table.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_polling_api.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_neighbor_class.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_ws_extension.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bootstrap.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bbr_api_internal.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_controller.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_cfg_settings.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/etx/etx.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/blacklist/blacklist.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_protocol.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_rpl.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_control.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ws_management_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_mcps.h

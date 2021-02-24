@@ -8,11 +8,11 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/device_key/source/DeviceKey
  mbed-os/features/mbedtls/platform/inc/platform_mbed.h \
  mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/TARGET_ZEST_CORE_STM32L4A6RG/mbedtls_device.h \
  mbed-os/features/mbedtls/inc/mbedtls/check_config.h \
- mbed-os/features/mbedtls/inc/mbedtls/cmac.h \
- mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_time.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/cmac.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/cipher.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_util.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform_time.h \
  mbed-os/features/storage/kvstore/include/KVStore.h \
  mbed-os/features/storage/kvstore/tdbstore/TDBStore.h \
  mbed-os/features/storage/blockdevice/BlockDevice.h \
@@ -136,7 +136,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/device_key/source/DeviceKey
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
@@ -148,6 +147,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/device_key/source/DeviceKey
  mbed-os/platform/FileSystemHandle.h \
  mbed-os/features/storage/kvstore/conf/kv_config.h \
  mbed-os/platform/mbed_wait_api.h mbed-os/platform/mbed_error.h \
- mbed-os/features/mbedtls/inc/mbedtls/entropy.h \
- mbed-os/features/mbedtls/inc/mbedtls/sha512.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/entropy.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/sha512.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h

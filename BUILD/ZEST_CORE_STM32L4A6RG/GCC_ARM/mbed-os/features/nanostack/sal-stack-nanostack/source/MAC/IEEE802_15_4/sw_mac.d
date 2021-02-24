@@ -45,6 +45,4 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/MAC/virtual_rf/virtual_rf_defines.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_fhss_callbacks.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_callback_timer.h \
- mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/common_functions.h \
- mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
- mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h
+ mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/common_functions.h

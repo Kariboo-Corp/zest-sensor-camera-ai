@@ -25,7 +25,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_ws_extension.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/Trickle/trickle.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol_abstract.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_address_internal.h \
@@ -41,11 +40,11 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/multicast_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/Neighbor_cache/neighbor_table_definition.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/Trickle/trickle.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/pan_blacklist/pan_blacklist_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/mac_neighbor_table/mac_neighbor_table.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_polling_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_config.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_cfg.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_addr.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/PANA/pana_eap_header.h \

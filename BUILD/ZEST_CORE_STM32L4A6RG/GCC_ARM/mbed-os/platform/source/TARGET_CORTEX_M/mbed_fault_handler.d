@@ -101,16 +101,13 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_preprocessor.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/us_ticker_data.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L4A6xG/device/cmsis_nvic.h \
- mbed-os/platform/mbed_atomic.h \
- mbed-os/platform/internal/mbed_atomic_impl.h \
- mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_error.h \
- mbed-os/platform/mbed_retarget.h mbed-os/platform/mbed_interface.h \
+ mbed-os/platform/mbed_error.h mbed-os/platform/mbed_retarget.h \
+ mbed-os/platform/mbed_interface.h \
  mbed-os/platform/source/mbed_crash_data_offsets.h \
  mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.h

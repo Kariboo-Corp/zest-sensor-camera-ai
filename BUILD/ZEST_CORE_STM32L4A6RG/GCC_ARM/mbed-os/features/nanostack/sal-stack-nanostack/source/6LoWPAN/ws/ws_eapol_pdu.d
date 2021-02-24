@@ -54,8 +54,4 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mlme.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/mpx_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_config.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_eapol_pdu.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_llc.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_neighbor_class.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/fhss_ws_extension.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_common_defines.h
+ mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_eapol_pdu.h

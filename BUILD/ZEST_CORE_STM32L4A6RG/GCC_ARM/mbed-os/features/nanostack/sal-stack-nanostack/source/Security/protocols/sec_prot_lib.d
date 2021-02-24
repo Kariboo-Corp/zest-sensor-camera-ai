@@ -46,7 +46,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/mac_neighbor_table/mac_neighbor_table.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_polling_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_config.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_cfg.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_addr.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/PANA/pana_eap_header.h \
@@ -56,10 +55,10 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_keys.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_lib.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/hmac/hmac_md.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/ieee_802_11/ieee_802_11.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/hmac/hmac_sha1.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/nist_aes_kw/nist_aes_kw.h \
- mbed-os/features/mbedtls/inc/mbedtls/sha256.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/sha256.h \
  mbed-os/features/mbedtls/inc/mbedtls/config.h \
  mbed-os/features/mbedtls/platform/inc/platform_mbed.h \
  mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/TARGET_ZEST_CORE_STM32L4A6RG/mbedtls_device.h \

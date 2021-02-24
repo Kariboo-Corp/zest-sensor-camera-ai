@@ -74,7 +74,7 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/PANA/pana.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/Common/sec_lib_definitions.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_sha256.h \
- mbed-os/features/mbedtls/inc/mbedtls/sha256.h \
+ mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/sha256.h \
  mbed-os/features/mbedtls/inc/mbedtls/config.h \
  mbed-os/features/mbedtls/platform/inc/platform_mbed.h \
  mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32L4/TARGET_ZEST_CORE_STM32L4A6RG/mbedtls_device.h \
@@ -84,7 +84,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/nwk_stats_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol_stats.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/ipv6_stack/protocol_ipv6.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/libNET/src/net_dns_internal.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_thread_test.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_common.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/libDHCPv6/libDHCPv6.h \

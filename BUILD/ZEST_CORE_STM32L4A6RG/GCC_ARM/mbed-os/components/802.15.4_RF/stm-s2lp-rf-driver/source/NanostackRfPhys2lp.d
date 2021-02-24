@@ -110,7 +110,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/components/802.15.4_RF/stm-s2lp-rf-d
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_lpuart.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_rtc.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
@@ -152,8 +151,8 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/components/802.15.4_RF/stm-s2lp-rf-d
  mbed-os/platform/cxxsupport/mstd_utility mbed-os/drivers/TimerEvent.h \
  mbed-os/hal/lp_ticker_api.h mbed-os/rtos/Thread.h \
  mbed-os/rtos/Semaphore.h mbed-os/platform/mbed_wait_api.h \
- mbed-os/platform/mbed_error.h mbed-os/platform/mbed_version.h \
- mbed-os/rtos/rtos.h mbed-os/rtos/Kernel.h mbed-os/rtos/Thread.h \
- mbed-os/rtos/ThisThread.h mbed-os/rtos/RtosTimer.h mbed-os/rtos/Mail.h \
- mbed-os/rtos/Queue.h mbed-os/rtos/MemoryPool.h mbed-os/rtos/Kernel.h \
- mbed-os/rtos/EventFlags.h mbed-os/rtos/ConditionVariable.h
+ mbed-os/platform/mbed_error.h mbed-os/rtos/rtos.h mbed-os/rtos/Kernel.h \
+ mbed-os/rtos/Thread.h mbed-os/rtos/ThisThread.h mbed-os/rtos/RtosTimer.h \
+ mbed-os/rtos/Mail.h mbed-os/rtos/Queue.h mbed-os/rtos/MemoryPool.h \
+ mbed-os/rtos/Kernel.h mbed-os/rtos/EventFlags.h \
+ mbed-os/rtos/ConditionVariable.h

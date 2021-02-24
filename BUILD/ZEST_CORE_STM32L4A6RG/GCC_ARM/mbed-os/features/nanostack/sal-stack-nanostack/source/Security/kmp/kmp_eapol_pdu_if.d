@@ -42,7 +42,6 @@ BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/pan_blacklist/pan_blacklist_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/mac_neighbor_table/mac_neighbor_table.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_polling_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_cfg.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_addr.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_eapol_pdu_if.h \

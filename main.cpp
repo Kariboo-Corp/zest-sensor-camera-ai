@@ -240,7 +240,7 @@ int main()
         return -1;
     }
 
-    char buf[50];
+    /*char buf[50];
     int buf_len = 0;
     TfLiteStatus tflite_status;
     uint32_t num_elements;
@@ -281,12 +281,12 @@ int main()
     }
 
     model_input = interpreter->input(0);
-    model_output = interpreter->output(0);
+    model_output = interpreter->output(0);*/
 
     USBMSD usb(bd);
 
     while (true) {
-    	for (uint32_t i = 0; i < num_elements; i++) {
+    	/*for (uint32_t i = 0; i < num_elements; i++) {
     		model_input->data.f[i] = 2.0f;
     	}
 
@@ -296,7 +296,7 @@ int main()
     		error_reporter->Report("Invoke failed");
     	}
 
-    	y_val = model_output->data.f[0];
+    	y_val = model_output->data.f[0];*/
 
         usb.process();
     }
