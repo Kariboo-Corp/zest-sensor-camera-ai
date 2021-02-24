@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mbed-os" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/swo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zest-sensor-camera" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zest-sensor-camera/lm3405" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zest-sensor-camera/ov5640" vcs="Git" />
+  </component>
+</project>
