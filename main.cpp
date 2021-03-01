@@ -21,11 +21,13 @@
 #include "FATFileSystem.h"
 #include "BlockDevice.h"
 
-#include "tensorflow/lite/micro/kernels/micro_ops.h"
+#include "tensorflow/lite/micro/all_ops_resolver.h"
 #include "tensorflow/lite/micro/micro_error_reporter.h"
 #include "tensorflow/lite/micro/micro_interpreter.h"
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
-#include "models/train_yes_conv_8_drop_yes_dense_64.h"
+#include "tensorflow/lite/schema/schema_generated.h"
+#include "tensorflow/lite/version.h"
+
+#include "models/model.hpp"
 
 #include "zest-sensor-camera/zest-sensor-camera.h"
 
@@ -46,16 +48,18 @@ namespace {
 #define FLASHIAP_SIZE      0x70000 //0x61A80    // 460 kB
 }
 
-namespace {
-	tflite::ErrorReporter* error_reporter = nullptr;
-	const tflite::Model* model = nullptr;
-	tflite::MicroInterpreter* interpreter = nullptr;
-	TfLiteTensor* model_input = nullptr;
-	TfLiteTensor* model_output = nullptr;
+tflite::MicroErrorReporter micro_error_reporter;
+tflite::ErrorReporter* error_reporter = &micro_error_reporter;
 
-	constexpr int kTensorArenaSize = 2 * 1024;
-	__attribute__((aligned(16)))uint8_t tensor_arena[kTensorArenaSize];
-}
+const tflite::Model* model = ::tflite::GetModel(g_model);
+
+tflite::AllOpsResolver resolver;
+
+const int tensor_arena_size = 2 * 1024;
+uint8_t tensor_arena[tensor_arena_size];
+
+tflite::MicroInterpreter interpreter(model, resolver, tensor_arena,
+                                     tensor_arena_size, error_reporter);
 
 // Prototypes
 void application_setup(void);
@@ -218,7 +222,30 @@ void application(void)
 // (note the calls to Thread::wait below for delays)
 int main()
 {
+    interpreter.AllocateTensors();
+
+    if (model->version() != TFLITE_SCHEMA_VERSION) {
+        TF_LITE_REPORT_ERROR(error_reporter,
+                             "Model provided is schema version %d not equal "
+                             "to supported version %d.\n",
+                             model->version(), TFLITE_SCHEMA_VERSION);
+    }
+
     pc.printf(START_PROMPT);
+
+    // Obtain a pointer to the model's input tensor
+    TfLiteTensor* input = interpreter.input(0);
+    input->data.f[0] = 0.;
+
+    TfLiteStatus invoke_status = interpreter.Invoke();
+    if (invoke_status != kTfLiteOk) {
+        TF_LITE_REPORT_ERROR(error_reporter, "Invoke failed\n");
+    }
+
+    TfLiteTensor* output = interpreter.output(0);
+    float value = output->data.f[0];
+    pc.printf(PROMPT);
+    pc.printf("value : %f", value);
 
     // application setup
     application_setup();
@@ -240,64 +267,11 @@ int main()
         return -1;
     }
 
-    /*char buf[50];
-    int buf_len = 0;
-    TfLiteStatus tflite_status;
-    uint32_t num_elements;
-    uint32_t timestamp;
-    float y_val;
 
-    static tflite::MicroErrorReporter micro_error_reporter;
-    error_reporter = &micro_error_reporter;
-
-    error_reporter->Report("STM32 TensorFlow Lite test");
-
-    model = tflite::GetModel(train_yes_conv_8_drop_yes_dense_64);
-
-    if (model->version() != TFLITE_SCHEMA_VERSION) {
-    	error_reporter->Report("Model version doesn't match schema");
-    	while(1);
-    }
-
-    static tflite::MicroMutableOpResolver<1> micro_op_resolver;
-
-    tflite_status = micro_op_resolver.AddBuiltin(
-    	tflite::BuiltinOperator_FULLY_CONNECTED,
-		tflite::ops::micro::Register_FULLY_CONNECTED());
-
-    if (tflite_status != kTfLiteOk) {
-    	error_reporter->Report("Could not add fully connected op");
-    	while(1);
-    }
-
-    static tflite::MicroInterpreter static_interpreter(
-    		model, micro_op_resolver, tensor_arena, kTensorArenaSize, error_reporter);
-    interpreter = &static_interpreter;
-
-    tflite_status = interpreter->AllocateTensors();
-    if (tflite_status != kTfLiteOk) {
-    	error_reporter->Report("AllocateTensors failed"); // if failed upgrade coef in arena size
-    	while(1);
-    }
-
-    model_input = interpreter->input(0);
-    model_output = interpreter->output(0);*/
 
     USBMSD usb(bd);
 
     while (true) {
-    	/*for (uint32_t i = 0; i < num_elements; i++) {
-    		model_input->data.f[i] = 2.0f;
-    	}
-
-    	tflite_status = interpreter->Invoke();
-
-    	if (tflite_status != kTfLiteOk) {
-    		error_reporter->Report("Invoke failed");
-    	}
-
-    	y_val = model_output->data.f[0];*/
-
         usb.process();
     }
 }
