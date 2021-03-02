@@ -1,6 +1,6 @@
-# Zest_Sensor_Camera demo
+# Zest_Sensor_Camera ai
 
-A basic example to demonstrate how to use the Zest_Sensor_Camera board.
+A basic example to demonstrate how to use the Zest_Sensor_Camera board with a TLM CNN wich can recognise handwritten digits.
 
 ## Requirements
 
@@ -17,6 +17,7 @@ The following boards are required:
 This demo makes use of the following libraries:
 
 * [Zest Sensor Camera](https://gitlab.com/catie_6tron/zest-sensor-camera) (include the lm3405 led flash and ov5640 sensor drivers)
+* [TensorFlow Light for Microcontrollers](https://github.com/tensorflow/tensorflow)
 
 ## Usage
 
@@ -24,16 +25,16 @@ To clone **and** deploy the project in one command, use `mbed import` and skip t
 target and toolchain definition:
 
 ```shell
-mbed import https://gitlab.com/catie_6tron/zest-sensor-camera-demo.git zest-sensor-camera-demo
+mbed import https://gitlab.com/eg-julien/zest-sensor-camera-ai.git zest-sensor-camera-ai
 ```
 
 Alternatively:
 
-- Clone to "zest-sensor-camera-demo" and enter it:
+- Clone to "zest-sensor-camera-ai" and enter it:
 
   ```shell
-  git clone https://gitlab.com/catie_6tron/zest-sensor-camera-demo.git zest-sensor-camera-demo
-  cd zest-sensor-camera-demo
+  git clone https://gitlab.com/eg-julien/zest-sensor-camera-ai.git zest-sensor-camera-ai
+  cd zest-sensor-camera-ai
   ```
 
 - Create an empty Mbed CLI configuration file:
