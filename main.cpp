@@ -28,6 +28,7 @@
 #include "tensorflow/lite/version.h"
 
 #include "models/model.hpp"
+#include "models/input_image.h"
 
 #include "zest-sensor-camera/zest-sensor-camera.h"
 
@@ -235,7 +236,7 @@ int main()
 
     // Obtain a pointer to the model's input tensor
     TfLiteTensor* input = interpreter.input(0);
-    input->data.f[0] = 0.;
+    input->data.f = (float *)arr_input_image;
 
     TfLiteStatus invoke_status = interpreter.Invoke();
     if (invoke_status != kTfLiteOk) {
@@ -243,9 +244,9 @@ int main()
     }
 
     TfLiteTensor* output = interpreter.output(0);
-    float value = output->data.f[0];
+    int value = output->data.f[0];
     pc.printf(PROMPT);
-    pc.printf("value : %f", value);
+    pc.printf("value : %d", value);
 
     // application setup
     application_setup();
